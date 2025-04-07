@@ -1,5 +1,9 @@
 Invoice Management Web App (Demo)
 
+Login:
+email- user@nextmail.com
+password- 123456
+
 Purpose
 
 This is a demo Invoice Management Web App built to showcase core features of invoice tracking and management. It is designed as a frontend-focused project using Next.js with Server-Side Rendering (SSR) and SQL for data persistence, simulating a real-world invoicing tool without backend APIs or authentication flow complexity.
