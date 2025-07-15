@@ -45,7 +45,7 @@ export async function createInvoice(prevState:State, form: FormData){
     const date = new Date().toISOString().split('T')[0];
 
    try{await sql`
-      INSERT INTO invoices (costumer_id, amount,status,date)
+      INSERT INTO invoices (customer_id, amount,status,date)
       VALUES (${customerId},${amountInCents}, ${status}, ${date} )`
    } catch (error){
     console.error('Error creating invoice:', error);
